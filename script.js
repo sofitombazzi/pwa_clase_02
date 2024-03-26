@@ -28,4 +28,16 @@ const miMichi = michi; //asigne la referenia, NO el valor. No estoy creando un o
 
 const precioPelotaDeMiMichi = michi.juguete;
 
+//Imprimo el objeto con DOM en el HTML
 
+
+
+const nombreGato = document.querySelector("#gatos .nombre").textContent = bolaDeNieve.nombre;
+const pesoGato = document.querySelector("#gatos .peso").textContent = bolaDeNieve.peso;
+const altura = document.querySelector("#gatos .altura").textContent = bolaDeNieve.altura;
+const color = document.querySelector("#gatos .color").textContent = bolaDeNieve.color;
+
+nombreGato.innerHTML= michi.nombre;
+pesoGato.innerHTML= michi.peso;
+alturaGato.innerHTML= michi.altura;
+colorGato.innerHTML= michi.color;
